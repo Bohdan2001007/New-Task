@@ -17,6 +17,17 @@ This project is a REST API built using Django, Django REST Framework, and GeoDja
 - Set up the database: Update the DATABASES configuration in settings.py with your PostgreSQL credentials and database name. Make - sure that the PostGIS extension is installed on your database.
 - Run migrations: python manage.py migrate
 
+# Setting environment variables
+At the root of the project, create a `.env` file and add the following variables:
+- SECRET_KEY=your-secret-key
+- DB_NAME=your-database-name
+- DB_USER=your-user
+- DB_PASSWORD=your-password
+- DB_HOST=your-localhost
+- DB_PORT=your-port
+
+Replace the values with your real credentials and secret key. Django will then automatically use those values.
+
 # Usage
 Start the server by running python manage.py runserver.
 
