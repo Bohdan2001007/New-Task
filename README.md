@@ -27,4 +27,5 @@ The following endpoints are available:
 - PUT /places/<id>/: Update an existing place with given id.
 - DELETE /places/<id>/: Delete an existing place with given id.
 - GET /places/nearest/?latitude=<latitude>&longitude=<longitude>: Get the nearest place from the specified latitude and longitude.
-  
+
+# Data Format
