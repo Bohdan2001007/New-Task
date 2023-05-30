@@ -16,7 +16,6 @@ Jinja2==3.1.2
 jsonschema==4.17.3
 MarkupSafe==2.1.2
 packaging==23.1
-pip==21.3.1
 psycopg2-binary==2.9.6
 pyrsistent==0.19.3
 pytz==2023.3
