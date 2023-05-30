@@ -29,3 +29,13 @@ The following endpoints are available:
 - GET /places/nearest/?latitude=<latitude>&longitude=<longitude>: Get the nearest place from the specified latitude and longitude.
 
 # Data Format
+The geographical data is formatted as GeoJSON. When creating or updating a place, you can send a JSON object in the following format: 
+ {
+  "name": "Place Name",
+  "description": "Place Description",
+  "geom": {
+    "type": "Point",
+    "coordinates": [longitude, latitude]
+  }
+}
+
